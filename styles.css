@@ -1,44 +1,97 @@
 * {
     background-color: #f6cb9d;
     font-family: 'Lucida Sans', sans-serif;
-    color: #333;
-    line-height: 2;
+    color: #48284a;
+    line-height: 1,5;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h1 {
-    color: #132711;
+    color: white;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 300%;
-    background-color: chocolate;
+    background-color: #48284a;
+    text-align: right;
+    text-shadow: 2px 2px 6px #fff7ae;
+    padding-right: 15px;
+    letter-spacing: 2px;
 }
 
 h2 {
-    color: #8b008b;
-    font-weight: lighter;
-    text-transform: lowercase;
-    font-weight: bold;
-    background-color: blue;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 250%;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 6px #916c80;
+    padding-left: 10px;
 }
 
 nav ul {
     list-style: none;
-    background-color: chartreuse;
     padding-left: 0;
 }
 
 nav ul li {
-    background-color: aqua;
-    margin-left: 0;
-    margin-right: 50%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #48284a;
 }
 
 nav ul li a{
-    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    background-color: red;
-    padding-right: 20px;
-    padding-left: 20px;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 10px #916c80;
+}
+
+section#about h2 {
+    text-align: right;
+    padding-right: 15px;
+}
+
+section#about p {
+    text-align: right;
+    padding-right: 15px;
+}
+
+section#about img{
+    width: 100%;
+    opacity: 0.2;
+    margin-top: -400px;
+}
+
+article {
+    padding-left: 10px;
+}
+
+article p a {
+    font-weight: bold;
+}
+
+article p a:hover {
+    text-shadow: 0px 0px 4px #916c80;
+}
+
+article figure figcaption {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+    font-size: 150%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #48284a;
+}
+
+footer a:hover {
+    text-shadow: 0px 0px 4px #916c80;
 }
